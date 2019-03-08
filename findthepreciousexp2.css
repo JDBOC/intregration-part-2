@@ -1,0 +1,203 @@
+        @font-face {
+            font-family: 'partyBusiness';
+            src: url('partybusiness/partybusiness.ttf');
+        }
+        
+        @font-face {
+            font-family: 'annatar';
+            src: url('annatar/tngan.ttf');
+        }
+        
+        @font-face {
+            font-family: 'aniron';
+            src: url('aniron/anicb___.ttf');
+        }
+        
+        .nav-item {
+            font-family: 'aniron';
+            display: flex-end;
+        }
+        
+        .fellows {
+            background-image: url("images/bg_light.png");
+        }
+        
+        #fellowsTitre {
+            padding-top: 3%;
+        }
+        
+        article {
+            background-image: url("images/bg_dark.png");
+        }
+        
+        strong {
+            font-family: 'aniron' position: absolute;
+            top: 25%;
+        }
+        
+        .orange {
+            background-color: #fe661d;
+        }
+        
+        .txtCarousel {
+            font-family: 'partyBusiness';
+        }
+        
+        .premierSlide {
+            position: relative;
+            font-size: 300%;
+            padding-right: 15%;
+        }
+        
+        h2 {
+            font-family: 'aniron';
+            font-size: 120%;
+        }
+        
+        .gandalf {
+            position: relative;
+            opacity: 0.7;
+        }
+        
+        .ensemble img:hover {
+            opacity: 1;
+        }
+        
+        .ensemble {
+            position: relative;
+        }
+        
+        .reward {
+            position: absolute;
+            text-align: center;
+            top: 10%;
+            width: 80%;
+            margin-left: 10%;
+            opacity: 0.6;
+            background-color: white;
+            padding-left: 10px;
+            padding-right: 10px;
+            font-family: 'partyBusiness';
+            color: black;
+            border-radius: 8px;
+            font-weight: bold;
+            font-size: 1.5rem;
+        }
+        
+        .badge {
+            padding: 10px;
+            font-size: 75%;
+        }
+        
+        .badge:hover {
+            color: #FF3D00;
+            border-bottom: solid;
+        }
+        
+        .badge:hover .symboles1 {
+            opacity: 1;
+        }
+        
+        .symboles1 {
+            font-family: 'annatar';
+            font-size: 75%;
+            opacity: 0;
+        }
+        
+        .ensemble:hover .reward {
+            display: none;
+        }
+        
+        #symbolesTitre {
+            font-family: 'annatar';
+            color: #FF3D00;
+            font-size: 200%;
+        }
+        
+        .nav-pills {
+            padding: 10px;
+        }
+        
+        .reward strong {
+            color: #FF3D00;
+        }
+        
+        .name {
+            position: absolute;
+            width: 60%;
+            margin-left: 20%;
+            top: 45%;
+            color: white;
+            text-align: center;
+            font-family: 'partyBusiness';
+            font-size: 3rem;
+        }
+        
+        .dead {
+            position: absolute;
+            text-align: center;
+            top: 10%;
+            width: 80%;
+            margin-left: 10%;
+            padding-left: 10px;
+            padding-right: 10px;
+            font-family: 'partyBusiness';
+            color: #eb692d;
+            border-radius: 8px;
+            font-weight: bolder;
+            font-size: 3rem;
+        }
+        
+        .ensemble:hover .dead {
+            opacity: 0;
+        }
+        
+        .ensemble:hover .name {
+            top: 80%;
+            font-size: 3.5rem;
+        }
+        
+        #navbarNavAltMarkup {
+            justify-content: flex-end;
+        }
+        
+        .nav-item:hover {
+            color: white;
+            border-bottom: solid;
+        }
+        
+        .test {
+            color: #FF3D00;
+            font-family: 'aniron';
+            font-size: 150%;
+            padding-bottom: 5%;
+            justify-content: space-around;
+        }
+        
+        .test:hover {
+            color: #FF3D00;
+        }
+        
+        .card-text {
+            font-family: 'aniron';
+            color: aliceblue;
+        }
+        
+        .card-deck {
+            justify-content: flex-end;
+            color: aliceblue;
+        }
+        
+        .card-body {
+            background-color: black;
+        }
+        
+        .card {
+            max-width: 80%;
+            height: auto;
+        }
+        
+        .gimli {
+            text-decoration: line-through;
+            text-decoration-color: #FF3D00
+        }
